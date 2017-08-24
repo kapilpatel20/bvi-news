@@ -1,0 +1,21 @@
+{
+    "name": "kapilpatel20/bvi-news",
+    "description": "News Management with crud options",
+    "type": "symfony-bundle",
+    "homepage": "https://github.com/kapilpatel20/bvi-news",
+    "authors": [{
+            "name": "Rahul Trivedi",
+            "email": "rahul.trivedi@brainvire.com"
+        }],
+    "keywords": [
+        "News Template"
+    ],
+    "license": "proprietary",
+    "require": {
+        "knplabs/knp-paginator-bundle": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {"BviNewsBundle\\": ""}
+    },
+    "minimum-stability": "dev"
+}

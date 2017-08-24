@@ -1,0 +1,19 @@
+bvi_news_list:
+    path:     /list
+    defaults: { _controller: BviNewsBundle:News:index }
+
+bvi_news_new:
+    path:     /new
+    defaults: { _controller: BviNewsBundle:News:new }
+    
+bvi_news_edit:
+    path:     /edit/{id}
+    defaults: { _controller: BviNewsBundle:News:edit }
+    
+bvi_news_update_status:
+    path:     /update-status
+    defaults: { _controller: BviNewsBundle:News:updateStatus }
+    
+bvi_news_delete:
+    path:     /delete-news
+    defaults: { _controller: BviNewsBundle:News:deleteNews }    
