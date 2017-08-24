@@ -159,7 +159,6 @@ class NewsController extends Controller {
         if (is_object($objNews)) {
             
             $em->remove($objNews);
-            $em->persist($objNews);
             $em->flush();
             $success = true;
         }
